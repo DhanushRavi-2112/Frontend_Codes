@@ -1,0 +1,35 @@
+.great{
+    border: 3px solid black;
+    background-color: gold;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: repeat(2,200px)
+}
+.grand{
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.par1{
+    background-color: aqua;
+    
+}
+.par2{
+    background-color: lightcoral;
+    
+}
+.par3{
+    background-color: blueviolet;
+}
+p{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 550px;
+    border: 3px solid aqua;
+    overflow: auto;
+}

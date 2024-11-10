@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+         <h1 id="one">Name</h1>
+         <button onclick="change(event)">Raja</button>
+         <button onclick="change(event)">Senthil</button> 
+         <button onclick="change(event)">Kannan</button> 
+         <a href="https://www.youtube.com/" id="two">Youtube</a>      
+        </div>
+    <script>
+          var p=document.getElementById("one")
+          var q=document.getElementById("two")
+          function change(event)
+          {
+            p.textContent=event.target.textContent
+          }
+    </script>
+</body>
+</html>

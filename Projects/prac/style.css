@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+body::before{
+    content: "";
+}
+@media (min-width: 576px){
+
+}
+
+.top{
+    background-color: blue;
+    color: white;
+    padding: 19px;
+
+}
+.h1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.logo{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+ul,h1,li{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: aqua;
+}
+input{
+    width: 60%;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 20%;
+    border-radius: 24px;
+}
+
+.box{
+    display: inline-block;
+    border: 3px solid white;
+    width: 300px;
+    margin-right: 4px;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5)
+}
+.box:hover{
+    background-color: blue;
+    color: white;
+}
+
+.image{
+    text-align: center;
+}
+
+p{
+    word-spacing: 10px;
+    text-align: justify;
+}
+.about{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact{
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+button{
+    width: 60%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button :hover{
+    background-color: gold;
+}
+.log{
+   margin-left: 10px;
+}

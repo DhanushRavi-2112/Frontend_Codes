@@ -1,0 +1,65 @@
+.one {
+    text-transform: uppercase;
+    word-spacing: 20px;
+    font-style: italic;
+}
+
+#one {
+    border: 3px solid black;
+    display: flow-root;
+    
+}
+
+body{
+    background-image: url(sky.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section{
+    display: flow-root;
+    border: 3px solid black;
+}
+img{
+    height: 50px;
+    width: 50px;
+    float: initial;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.two{
+    word-spacing: 20px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 2.5;
+}
+
+#two{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+    padding: 10px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding: 5px;
+    margin: 5px;
+    height: fit-content;
+    flex-basis: 20%;
+    font-style: italic;
+}
+
+.three{
+    text-transform: capitalize;
+    word-spacing: 20px;
+}
+
+#three{
+    border: 5px solid black;
+}

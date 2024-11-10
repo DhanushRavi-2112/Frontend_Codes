@@ -1,0 +1,53 @@
+.great {
+    height: 600px;
+    width: 600px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);  
+    column-gap: 10px; 
+    row-gap: 10px;
+    justify-content: center;
+}
+.grand {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+.box1 {
+    background-color: aquamarine;
+}
+
+.box2 {
+    background-color: brown;
+}
+
+.box3 {
+    background-color: blueviolet;
+}
+
+.box4 {
+    background-color: blue;
+}
+
+.box5 {
+    background-color: black;
+}
+
+.box6 {
+    background-color: rgb(20, 247, 247);
+    grid-column: 2/span;
+    grid-row: 4/span;
+}
+
+.box7 {
+    background-color: rebeccapurple;
+}
+
+.box8 {
+    background-color: palevioletred;
+}
+
+.box9 {
+    background-color: darkgreen;
+}

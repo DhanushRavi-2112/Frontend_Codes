@@ -1,0 +1,43 @@
+input{
+    height: 40px;
+    width: 34%;
+    text-align: center;
+    border-radius: 24px;
+}
+button{
+    height: 40px;
+    margin-left: 50px;
+    width: 19%;
+    border-radius: 24px;
+}
+.log{
+    margin-left: 40%;
+    margin-top: 150px;
+}
+p{
+    margin-left: 30px;
+}
+body{
+    background: url(no_bg.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+input:invalid:not(:placeholder-shown){
+    border-color: red;
+    background: url(cor_red1.1.png);
+}
+input:valid:not(:placeholder-shown){
+    background: url(cor_green1.1.png);
+}
+input:invalid:not(:placeholder-shown),input:valid:not(:placeholder-shown){
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: calc(100%);
+}
+input:invalid:not(:placeholder-shown) + p{
+    color: red;
+}
+input:invalid ~ button[type="submit"]{
+    opacity: .6;
+    pointer-events: none;
+}

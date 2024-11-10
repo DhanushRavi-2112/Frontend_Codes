@@ -1,0 +1,156 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="os">Hello World</h1>
+    <button onclick="change()">Change</button>
+    <script>
+        var p=document.getElementById("os")
+        console.log(p.textContent)
+        function change(){
+            p.textContent="Bye World"
+        }
+    </script>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num1">
+    <input id="num2">
+    <button onclick="out()">Add</button>
+    <p id="result">Result</p>
+    <script>
+        var x=document.getElementById("num1")
+        var y=document.getElementById("num2")
+        var z=document.getElementById("result")
+        function out()
+        {
+            m=Number(x.value)
+            n=Number(y.value)
+            p=m+n
+            result.textContent=p
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Guess The Number</h1>
+    <input id="val">
+    <button onclick="check()">Check</button>
+    <h3 id="result">You're Right/Wrong</h3>
+    <h3 id="scr">Score:10</h3>
+    <h5 id="ans">Predict The Answer</h5>
+    <script>
+        var p=document.getElementById("val")
+        var result=document.getElementById("result")
+        var t=document.getElementById("scr")
+        var r=Math.floor(Math.random()*10)+1
+        var ans=document.getElementById("ans")
+        var score=10
+        function check()
+        {
+            var entnum=r.value
+            if(entnum==r){
+                result.textContent="Right"
+                alert("You Won...")
+            }
+            else{
+                score=score-1
+                scr.textContent="score"+score
+                result.textContent="Wrong"
+                ans.textContent="Answer is"+ r
+                alert("You Lose")
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="ipt" onkeyup="change()">
+    <h1 id="result"></h1>
+    <script>
+        var x=document.getElementById("ipt")
+        var y=document.getElementById("result")
+        function change()
+        {
+            y.textContent=x.value
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="change()">Add</button>
+    <div id="h1"></div>
+    <script>
+        var y=document.getElementById("h1")
+        function change()
+        {
+            var z=document.createElement("h1")
+            z.textContent="Hello"
+            y.append(z)
+        }
+    </script>
+</body>
+</html>
+
+<button id="hi" onclick="change()">change color</button>
+<style>
+    .hoi{
+        background-color: black;
+        color: gold;
+    }
+</style>
+<script>
+     var m=document.getElementById("hi")
+     function change()
+     {
+        m.setAttribute("class","hoi")
+     }
+</script>-->
+
+<h1 id="nm">Name</h1>
+<button onclick="change(event)">Kannan</button>
+<button onclick="change(event)">Raja</button>
+<button onclick="change(event)">Senthil</button>
+<script>
+    var s=document.getElementById("nm")
+    function change(event)
+    {
+        s.textContent=event.target.textContent
+    }
+</script>

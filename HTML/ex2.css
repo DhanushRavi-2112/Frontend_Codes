@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+    letter-spacing: 20px;
+}
+p{
+    text-indent: 100px;
+    text-align: justify;
+    line-height: 1;
+    word-spacing: 20px;
+    font-weight: 900;
+    font-family:monospace;
+}
+ol{
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 15px;
+}

@@ -1,0 +1,32 @@
+.oct{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 24px;
+    height: 500px;
+    width: 500px;
+}
+.mon{
+    height: 200px;
+    width: 180px;
+}
+.sep{
+    position: fixed;
+    background-color: rgb(202, 133, 29);
+    top: 10px;
+    left: 200px;
+    justify-content: center;
+}
+.nov{
+    /* position: sticky;
+    background-color: brown;
+    top: 80px; */
+    
+}
+.dec{
+    background-color: black;
+    color: wheat;
+}
+h1{
+    position:sticky;
+    top: 15px;
+}

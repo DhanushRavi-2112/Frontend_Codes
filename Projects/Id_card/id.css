@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    padding: 25px 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.profile::before{
+    height: 150px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    position: absolute;
+    border-radius: 24px 24px 0 0;
+    content: "";
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.pro-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.job {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button {
+    background-color: blue;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 18px;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: navy;
+}
+
+.analytics {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+data {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid whitesmoke;
+    padding: 0 20px;
+}
+
+.data i{
+       border-right: 6px;
+       font: 18px;
+}
+
+.data:last-child{
+    border-right: none;
+}
+
+
+.profile2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    padding: 25px 10px;
+    position: relative;
+}
+
+.profile2::before{
+    height: 150px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    position: absolute;
+    border-radius: 24px 24px 0 0;
+    content: "";
+}
+
+.image2 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.pro-img2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.name2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.job2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.media2 {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.buttons2 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button2 {
+    background-color: blue;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 18px;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button2:hover {
+    background-color: navy;
+}
+
+.analytics2  {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+data2 {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid whitesmoke;
+    padding: 0 20px;
+}
+
+.data2 i{
+       border-right: 6px;
+       font: 18px;
+}
+
+.data2:last-child{
+    border-right: none;
+}

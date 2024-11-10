@@ -1,0 +1,51 @@
+#one{
+    background-color: gold;
+    flex-grow: 1;
+
+    
+}
+
+.one{
+    display: flex;
+    background-color: red;
+    
+}
+
+#two{
+    flex-grow: 2;
+    background-color: white;
+}
+
+#three{
+    flex-grow: 1;
+    background-color: magenta;
+}
+
+.two{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+h2{
+    background-color: lightblue;
+    flex-basis: 25%;
+    margin: 3px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    padding: 10px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    padding: 5px;
+    margin: 5px;
+    height: fit-content;
+}
